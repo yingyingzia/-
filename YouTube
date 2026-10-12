@@ -1,0 +1,16 @@
+[custom]
+
+; YouTube 走代理
+ruleset=📺 YouTube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
+
+; 其他全部直连
+ruleset=DIRECT,[]FINAL
+
+; YouTube 手动选择订阅节点
+custom_proxy_group=📺 YouTube`select`.*
+
+; 启用规则生成
+enable_rule_generator=true
+
+; 覆盖原订阅规则
+overwrite_original_rules=true
